@@ -34,7 +34,7 @@ typedef __int16_t int16_t ;
 /* Includes ------------------------------------------------------------------*/
 
 /* Exported defines ----------------------------------------------------------*/
-int qvar_digital(int16_t value);
+void qvar_digital(int16_t value,int* act_output);
 /* Exported functions --------------------------------------------------------*/
 
 #endif /* __APP_MEMS_H */
